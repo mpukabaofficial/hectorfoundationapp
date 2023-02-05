@@ -1,23 +1,11 @@
-import Link from "next/link";
+import Appsections from "@/Components/appsections";
+import styles from "../../styles/application.module.css";
 
-const Application = ({}) => {
+const Application = ({ children }) => {
   return (
-    <div>
-      <div>
-        <Link href="/application/profile">Profile</Link>
-      </div>
-      <div>
-        <Link href="/application/family">Family</Link>
-      </div>
-      <div>
-        <Link href="/application/education">Education</Link>
-      </div>
-      <div>
-        <Link href="/application/activities">Activities</Link>
-      </div>
-      <div>
-        <Link href="/application/submission">Submission</Link>
-      </div>
+    <div className={styles.container}>
+      <Appsections />
+      <div className={styles.content}>{children}</div>
     </div>
   );
 };

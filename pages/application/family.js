@@ -1,10 +1,13 @@
 import Link from "next/link";
+import Application from "../application/index.js";
 
 const Family = () => {
   return (
-    <h1>
-      <Link href="/">Family</Link>
-    </h1>
+    <Application>
+      <h1>
+        <Link href="/">Family</Link>
+      </h1>
+    </Application>
   );
 };
 
