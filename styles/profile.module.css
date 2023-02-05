@@ -1,0 +1,26 @@
+.content {
+  padding: 0 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 0 50px;
+}
+.content div {
+  display: flex;
+  flex-direction: column;
+}
+.radio div {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  width: 50%;
+}
+
+.title {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto 50px;
+  border-bottom: 1px solid #222222;
+}
+
+.form-container h2 {
+  margin: 10px;
+}

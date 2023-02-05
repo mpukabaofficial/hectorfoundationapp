@@ -5,6 +5,13 @@ body {
   color: #1b1b1b;
   font-family: "Nunito";
 }
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
 a {
   color: #333;
   text-decoration: none;
@@ -43,4 +50,24 @@ footer {
 .not-found a {
   color: #4979ff;
   text-decoration: underline;
+}
+.form-container {
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #eaeaea;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+  width: 80%;
+  height: 32px;
+  margin: 10px 5px 20px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+input[type="radio"] {
 }
