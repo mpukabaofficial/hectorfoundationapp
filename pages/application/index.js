@@ -1,10 +1,24 @@
 import Link from "next/link";
 
-const Application = () => {
+const Application = ({}) => {
   return (
-    <h1>
-      <Link href="/">Application</Link>
-    </h1>
+    <div>
+      <div>
+        <Link href="/application/profile">Profile</Link>
+      </div>
+      <div>
+        <Link href="/application/family">Family</Link>
+      </div>
+      <div>
+        <Link href="/application/education">Education</Link>
+      </div>
+      <div>
+        <Link href="/application/activities">Activities</Link>
+      </div>
+      <div>
+        <Link href="/application/submission">Submission</Link>
+      </div>
+    </div>
   );
 };
 
