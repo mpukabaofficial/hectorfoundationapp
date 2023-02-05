@@ -1,8 +1,9 @@
 import Link from "next/link";
+import styles from "../styles/pages.module.css";
 
 const Pages = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <div>
         <Link href="/">Dashboard</Link>
       </div>
