@@ -11,7 +11,7 @@ const Pages = () => {
         <Link href="/application">Application</Link>
       </div>
       <div>
-        <Link href="/">Portal</Link>
+        <Link href="/portal">Portal</Link>
       </div>
     </div>
   );
