@@ -95,3 +95,9 @@ select {
   margin: 10px;
   background-color: whitesmoke;
 }
+.title {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto 50px;
+  border-bottom: 1px solid #222222;
+}

@@ -6,7 +6,7 @@ const Profilesection = () => {
   return (
     <Application>
       <div className="form-container">
-        <div className={styles.title}>
+        <div className="title">
           <h1>Profile</h1>
         </div>
         <form action="submit" method="post" id="profile">

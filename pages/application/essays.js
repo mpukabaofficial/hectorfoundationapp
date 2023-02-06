@@ -4,9 +4,22 @@ import Application from "../application/index.js";
 const Essays = () => {
   return (
     <Application>
-      <h1>
-        <Link href="/">Essays</Link>
-      </h1>
+      <div className="title">
+        <h1>Essays</h1>
+      </div>
+      <div>
+        <button
+          type="submit"
+          form="profile"
+          value="Submit"
+          className="btn-application-save"
+        >
+          Save
+        </button>
+        <button className="btn-application-next">
+          <Link href="/application/submission">Next</Link>
+        </button>
+      </div>
     </Application>
   );
 };

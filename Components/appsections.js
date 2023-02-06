@@ -17,6 +17,9 @@ const Appsections = () => {
         <Link href="/application/activities">Activities</Link>
       </div>
       <div>
+        <Link href="/application/essays">Essays</Link>
+      </div>
+      <div>
         <Link href="/application/submission">Submission</Link>
       </div>
     </div>
