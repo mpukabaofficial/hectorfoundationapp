@@ -68,8 +68,8 @@ const Profilesection = () => {
                 <input type="tel" id="othrphone" name="othrphone" />
               </div>
               <div>
-                <label for="last">Other Email</label>
-                <input type="email" id="last" name="last" />
+                <label for="otherEmail">Other Email</label>
+                <input type="email" id="otherEmail" name="otherEmail" />
               </div>
             </div>
           </section>
@@ -149,10 +149,17 @@ const Profilesection = () => {
           </section>
         </form>
         <div>
-          <button type="submit" form="profile" value="Submit">
+          <button
+            type="submit"
+            form="profile"
+            value="Submit"
+            className="btn-application-save"
+          >
             Save
           </button>
-          <Link href="/application/family">Next</Link>
+          <button className="btn-application-next">
+            <Link href="/application/family">Next</Link>
+          </button>
         </div>
       </div>
     </Application>
